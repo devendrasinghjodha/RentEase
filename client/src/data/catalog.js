@@ -1,0 +1,145 @@
+export const categories = [
+  {
+    key: 'all',
+    label: 'All Items',
+    description: 'Browse the complete rental catalog',
+  },
+  {
+    key: 'furniture',
+    label: 'Furniture',
+    description: 'Beds, sofas, tables, wardrobes, and storage',
+  },
+  {
+    key: 'appliance',
+    label: 'Appliances',
+    description: 'Refrigerators, TVs, washing machines, and more',
+  },
+];
+
+export const productSeed = [
+  {
+    id: 'bed-queen',
+    name: 'Queen Size Bed with Mattress',
+    category: 'furniture',
+    subcategory: 'Bed',
+    monthlyRent: 899,
+    securityDeposit: 2000,
+    tenureOptions: [3, 6, 12],
+    availability: '15 in stock',
+    description: 'A durable queen bed bundle for compact city apartments.',
+    features: ['Orthopedic mattress', 'Sheesham frame', 'Fast delivery'],
+    image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200',
+  },
+  {
+    id: 'sofa-3-seat',
+    name: '3-Seater Fabric Sofa',
+    category: 'furniture',
+    subcategory: 'Sofa',
+    monthlyRent: 699,
+    securityDeposit: 1500,
+    tenureOptions: [3, 6, 12],
+    availability: '12 in stock',
+    description: 'A clean-lined living room centerpiece with removable cushions.',
+    features: ['Easy-clean upholstery', 'Hardwood frame', 'Neutral finish'],
+    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200',
+  },
+  {
+    id: 'study-set',
+    name: 'Study Table with Ergonomic Chair',
+    category: 'furniture',
+    subcategory: 'Table',
+    monthlyRent: 499,
+    securityDeposit: 1000,
+    tenureOptions: [3, 6, 12],
+    availability: '20 in stock',
+    description: 'Work-from-home starter set with cable management and storage.',
+    features: ['Drawer storage', 'Ergonomic chair', 'Compact footprint'],
+    image: 'https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=1200',
+  },
+  {
+    id: 'fridge-250',
+    name: '250L Double Door Refrigerator',
+    category: 'appliance',
+    subcategory: 'Refrigerator',
+    monthlyRent: 799,
+    securityDeposit: 2500,
+    tenureOptions: [3, 6, 12],
+    availability: '12 in stock',
+    description: 'Energy-efficient refrigerator for student homes and shared flats.',
+    features: ['Frost free', '3-star rating', 'Inverter compressor'],
+    image: 'https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?w=1200',
+  },
+  {
+    id: 'tv-43',
+    name: '43-inch Smart LED TV',
+    category: 'appliance',
+    subcategory: 'Television',
+    monthlyRent: 899,
+    securityDeposit: 3000,
+    tenureOptions: [3, 6, 12],
+    availability: '8 in stock',
+    description: 'Streaming-ready smart TV package with installation support.',
+    features: ['Full HD', 'Built-in WiFi', 'Wall-mount included'],
+    image: 'https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=1200',
+  },
+  {
+    id: 'washing-machine',
+    name: 'Front Load Washing Machine 7kg',
+    category: 'appliance',
+    subcategory: 'Washing Machine',
+    monthlyRent: 699,
+    securityDeposit: 2000,
+    tenureOptions: [3, 6, 12],
+    availability: '10 in stock',
+    description: 'Quiet automatic washer optimized for apartment living.',
+    features: ['15 wash programs', 'Child lock', 'Energy efficient'],
+    image: 'https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=1200',
+  },
+  {
+    id: 'air-conditioner',
+    name: 'Split Air Conditioner 1.5 Ton',
+    category: 'appliance',
+    subcategory: 'Air Conditioner',
+    monthlyRent: 1299,
+    securityDeposit: 3500,
+    tenureOptions: [3, 6, 12],
+    availability: '6 in stock',
+    description: 'Cooling plus installation for warm-weather city rentals.',
+    features: ['5-star efficiency', 'Turbo cool', 'Installation included'],
+    image: 'https://images.unsplash.com/photo-1631567091046-7e4c4a0d7f86?w=1200',
+  },
+];
+
+export const stats = [
+  { value: '2,400+', label: 'Active rentals' },
+  { value: '3 city', label: 'Scale-ready inventory model' },
+  { value: '48h', label: 'Typical delivery turnaround' },
+  { value: '94%', label: 'Retention on long tenure plans' },
+];
+
+export const workflow = [
+  {
+    title: 'Browse and shortlist',
+    description: 'Filter furniture and appliances by category, price, and tenure.',
+  },
+  {
+    title: 'Reserve a rental plan',
+    description: 'Pick the monthly rent and security deposit that fits the move.',
+  },
+  {
+    title: 'Schedule delivery',
+    description: 'Choose the delivery slot and address that works for the tenant.',
+  },
+  {
+    title: 'Manage returns',
+    description: 'Track active rentals, maintenance, extensions, and pickup dates.',
+  },
+];
+
+export const kpis = [
+  'Number of active rentals',
+  'Monthly recurring revenue',
+  'Product utilization rate',
+  'Customer retention rate',
+  'Maintenance resolution time',
+];
