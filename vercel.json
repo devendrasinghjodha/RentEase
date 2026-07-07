@@ -1,5 +1,5 @@
 {
-  "installCommand": "npm install --prefix client",
-  "buildCommand": "npm run build --prefix client",
-  "outputDirectory": "client/dist"
+  "installCommand": "sh -lc 'if [ -f package.json ] && grep -q \"rentease-client\" package.json 2>/dev/null; then npm install; elif [ -f client/package.json ]; then npm install --prefix client; else npm install; fi'",
+  "buildCommand": "sh -lc 'if [ -f package.json ] && grep -q \"rentease-client\" package.json 2>/dev/null; then npm run build && rm -rf ../build_output && mv dist ../build_output; elif [ -f client/package.json ]; then npm run build --prefix client && rm -rf build_output && mv client/dist build_output; else npm run build --workspace client && rm -rf client/dist && mv client/dist build_output; fi'",
+  "outputDirectory": "build_output"
 }
