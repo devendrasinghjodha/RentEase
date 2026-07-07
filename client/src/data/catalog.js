@@ -106,7 +106,7 @@ export const productSeed = [
     availability: '6 in stock',
     description: 'Cooling plus installation for warm-weather city rentals.',
     features: ['5-star efficiency', 'Turbo cool', 'Installation included'],
-    image: 'https://images.unsplash.com/photo-1631567091046-7e4c4a0d7f86?w=1200',
+    image: 'https://daikinacsolutionsplaza.com/blog/wp-content/uploads/2023/04/image-6.png',
   },
 ];
 
